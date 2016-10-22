@@ -1,0 +1,48 @@
+{
+	"type": "FeatureCollection",
+	"features": 
+	[
+		{
+		"type": "Feature",
+		"properties": {
+			"name": "Olympic Aquatics Stadium",
+			"coordinate":"-22.980542, -43.394338",
+			"venue_type": "Indoor stadium",
+			"event": [{"name":"Swimming","date_start":"2016-8-6", "date_end":"2016-8-13"},
+					{"name":"Water polo","date_start":"2016-8-14", "date_end":"2016-8-20"}],
+			"link": "https://www.rio2016.com/en/venues/olympic-aquatics-stadium",
+			"images":["http://media.gettyimages.com/photos/construction-continues-at-the-olympic-aquatics-stadium-at-the-olympic-picture-id508225024", "http://media.gettyimages.com/photos/general-view-of-the-olympic-aquatics-stadium-during-the-inauguration-picture-id519846630","https://www.worldbuild365.com/media/news/00Web/Rio%20Olympics%20Stadium/Rio%20Olympic%20Aquatics%20Stadium%20Web%2001.jpg"],
+			"capacity": "15,000",
+			"parking": "-22.974217, -43.402799"
+		},
+		"geometry": 
+		{
+			"type": "Polygon",
+			"coordinates": [
+			  [
+				[
+				  -43.39508414268494,
+				  -22.981656331611163
+				],
+				[
+				  -43.39576005935669,
+				  -22.980974797069308
+				],
+				[
+				  -43.394697904586785,
+				  -22.980125343407142
+				],
+				[
+				  -43.39404344558715,
+				  -22.98086614631737
+				],
+				[
+				  -43.39508414268494,
+				  -22.981656331611163
+				]
+			  ]
+			]
+		}
+	}
+	]
+}

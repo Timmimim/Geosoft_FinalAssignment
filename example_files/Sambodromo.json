@@ -1,0 +1,90 @@
+{
+	"type": "FeatureCollection",
+	"features": 
+	[
+		{
+		"type": "Feature",
+		"properties": {
+			"name": "Sambodromo",
+			"coordinate":"-22.908618, -43.197963",
+			"venue_type": "Outdoor stadium",
+			"event": [{"name":"Archery","date_start":"2016-8-6", "date_end":"2016-8-12"},
+					{"name":"Athletics","date_start":"2016-8-12", "date_end":"2016-8-20"},
+					{"name":"Athletics - race walk","date_start":"2016-8-19", "date_end":"2016-8-19"},
+					{"name":"Athletics - marathon","date_start":"2016-8-14", "date_end":"2016-8-14"}],
+			"link": "https://www.rio2016.com/en/venues/sambodromo",
+			"images":["http://www.sambadrome.com/wp-content/uploads/sambadrome-runway-rio.jpeg", "http://rio-karneval.de/media/2012/02/sambodromo-468x354.jpg","http://www.brazilbookers.com/_images/rio-carnival-best-pix/2013/rio-carnival-2013-uniao-da-lha-do-govervador-5.jpg"],
+			"capacity": "36,000",
+			"parking": "-22.913325, -43.202843"
+		},
+		"geometry": 
+		{
+			"type": "Polygon",
+			"coordinates": [
+			  [
+				[
+				  -43.196654319763184,
+				  -22.914128217769004
+				],
+				[
+				  -43.19605350494385,
+				  -22.914088688893443
+				],
+				[
+				  -43.195366859436035,
+				  -22.913772457474057
+				],
+				[
+				  -43.19590330123901,
+				  -22.911894818226834
+				],
+				[
+				  -43.1963324546814,
+				  -22.911954112495497
+				],
+				[
+				  -43.19725513458252,
+				  -22.90845570627102
+				],
+				[
+				  -43.19753408432007,
+				  -22.90845570627102
+				],
+				[
+				  -43.19792032241821,
+				  -22.907823216413952
+				],
+				[
+				  -43.19830656051636,
+				  -22.907902277807445
+				],
+				[
+				  -43.19815635681152,
+				  -22.908396410472253
+				],
+				[
+				  -43.197083473205566,
+				  -22.912052936218938
+				],
+				[
+				  -43.197362422943115,
+				  -22.912092465688154
+				],
+				[
+				  -43.19706201553344,
+				  -22.913120227841564
+				],
+				[
+				  -43.19699764251709,
+				  -22.913574812462297
+				],
+				[
+				  -43.196654319763184,
+				  -22.914128217769004
+				]
+			  ]
+			]
+		}
+	}
+	]
+}

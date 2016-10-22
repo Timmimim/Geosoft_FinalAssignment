@@ -1,0 +1,65 @@
+{
+	"type": "FeatureCollection",
+	"features": 
+	[
+		{
+		"type": "Feature",
+		"properties": {
+			"name": "Olympic Equestrian Centre",
+			"coordinate":"-22.869510, -43.406698",
+			"venue_type": "Outdoor stadium",
+			"event": [{"name":"Equestrian dressage","date_start":"2016-8-10", "date_end":"2016-8-15"},
+					{"name":"Equestrian eventing","date_start":"2016-8-6", "date_end":"2016-8-9"},
+					{"name":"Equestrian jumping","date_start":"2016-8-16", "date_end":"2016-8-19"}],
+			"link": "https://www.rio2016.com/en/venues/olympic-equestrian-centre",
+			"images":["http://media.gettyimages.com/photos/aerial-view-of-the-olympic-equestrian-center-inside-deodoro-olympic-picture-id508730806", "http://media.gettyimages.com/photos/view-of-the-national-equestrian-centre-before-renovation-works-for-picture-id453267214","http://images.sports.cn/Image/2015/08/10/1010139573.jpg"],
+			"capacity": "14,000",
+			"parking": "-22.869814, -43.409898"
+		},
+		"geometry": 
+		{
+			"type": "Polygon",
+			"coordinates": [
+			  [
+				[
+				  -43.40596854686737,
+				  -22.87031327202234
+				],
+				[
+				  -43.40640306472778,
+				  -22.87016004809659
+				],
+				[
+				  -43.40685367584228,
+				  -22.86922092993705
+				],
+				[
+				  -43.406692743301384,
+				  -22.868968849746878
+				],
+				[
+				  -43.40587735176086,
+				  -22.868617913801227
+				],
+				[
+				  -43.405576944351196,
+				  -22.86877608222698
+				],
+				[
+				  -43.405078053474426,
+				  -22.869660833462223
+				],
+				[
+				  -43.40514779090881,
+				  -22.87000188128228
+				],
+				[
+				  -43.40596854686737,
+				  -22.87031327202234
+				]
+			  ]
+			]
+		}
+	}
+	]
+}

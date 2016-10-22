@@ -1,0 +1,74 @@
+{
+	"type": "FeatureCollection",
+	"features": 
+	[
+		{
+		"type": "Feature",
+		"properties": {
+			"name": "Fort Copacabana",
+			"coordinate":"-22.986001, -43.187046",
+			"venue_type": "Outdoor area",
+			"event": [{"name":"Cycling road – road race","date_start":"2016-8-6", "date_end":"2016-8-7"},
+					{"name":"Cycling road - time trial","date_start":"2016-8-10", "date_end":"2016-8-10"},
+					{"name":"Triathlon","date_start":"2016-8-18", "date_end":"2016-8-20"},
+					{"name":"Marathon swimming","date_start":"2016-8-15", "date_end":"2016-8-16"}],
+			"link": "https://www.rio2016.com/en/venues/fort-copacabana",
+			"images":["https://smsprio2016-a.akamaihd.net/news/53ZPMA2h.jpg", "http://www.allez-sambario.com/wp-content/uploads/2016/04/forte-de-copacabana-do-flickr-de-leo-wery.jpg","http://cdn1.buuteeq.com/upload/14493/forte-de-copacabana1.jpg.694x520_default.jpg"],
+			"capacity": "5,000",
+			"parking": "-22.987370, -43.188470"
+		},
+		"geometry": 
+		{
+			"type": "Polygon",
+			"coordinates": [
+			  [
+				[
+				  -43.18717002868652,
+				  -22.986505992618056
+				],
+				[
+				  -43.18605422973633,
+				  -22.98626894602548
+				],
+				[
+				  -43.185110092163086,
+				  -22.986328207712628
+				],
+				[
+				  -43.18408012390137,
+				  -22.986328207712628
+				],
+				[
+				  -43.18347930908203,
+				  -22.985893621403086
+				],
+				[
+				  -43.18382263183594,
+				  -22.985755343647742
+				],
+				[
+				  -43.184230327606194,
+				  -22.985439279675358
+				],
+				[
+				  -43.18629026412964,
+				  -22.98545903369531
+				],
+				[
+				  -43.18704128265381,
+				  -22.98569608170925
+				],
+				[
+				  -43.18751335144042,
+				  -22.985893621403086
+				],
+				[
+				  -43.18717002868652,
+				  -22.986505992618056
+				]
+			  ]
+			]
+		}
+	}
+	]
+}
