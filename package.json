@@ -1,0 +1,13 @@
+{
+  "name": "Olympic_Venues_Server_Dependencies",
+  "version": "1.0.0",
+  "private": true,
+  "description": "packages for server",
+  "author": "Timm Kuehnel",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10",
+    "nodemon": "^1.9.2"
+  }
+}
