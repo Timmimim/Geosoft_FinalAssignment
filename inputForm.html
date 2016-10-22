@@ -1,0 +1,63 @@
+<form action="" method="post" enctype="application/json">
+<div id="addVenueForm" class="panel panel-primary save">
+        <div class="panel-heading">
+        <p class="panel-title">Enter information on a new venue <b>here</b>.</p>
+        </div>
+        <div class="panel-body">
+        <div>
+            <p id="inCaseOfEdit"></p>
+            <label for="name">Name of Venue</label>
+            <input type="text" name="features[properties][name]" id="name"/>
+        </div>
+
+        <div>
+            <label for="entranceCoordinates" id="coordEntr">Place a Marker to mark an Entrance</label>
+            <input type="text" name="features[properties][coordinates]" id="entranceCoordinates" value=""/>
+            <p> <button id="addEntrance" class="btn btn-sm btn-primary">Add/Edit Entrance</button> Click the map to place a Marker.</p>
+        </div>
+
+        <div>
+            <label for="parkingCoordinates" id="coordPark">Place a Marker to mark Parking space</label>
+            <input type="text" name="features[properties][parking]" id="parkingCoordinates" value=""/>
+            <p><button id="addParking" class="btn btn-sm btn-primary">Add/Edit Parking</button> Click the map to place a Marker.</p>
+        </div>
+
+        <div>
+            <label for="inputCapacity">Capacity</label>
+            <input id="inputCapacity" type="number" value="0" min="0"/>
+
+        </div>
+
+        <div>
+            <label for="indoorStadium">Select a venue type</label><br>
+            <input id="indoorStadium" name="venue_type" type="radio" value="Indoor stadium" checked/>Indoor stadium <br>
+            <input id="outdoorStadium" name="venue_type" type="radio" value="Outdoor stadium"/>Outdoor stadium <br>
+            <input id="outdoorArea" name="venue_type" type="radio" value="Outdoor area"/>Outdoor area <br>
+        </div>
+
+        <div>
+            <label for="link">Enter a URL, e.g. for a homepage or wikipedia</label>
+            <input type="url" id="link" value="http://www.">
+        </div>
+
+        <div>
+            <label for="photoURL">Add photos via URL</label><div id="photoURL"></div>
+            <button id="photoLinkInput" class="btn btn-sm btn-primary">Add Photo link</button>
+            <!-- find way to add array via input -->
+        </div>
+
+        <div>
+            <!-- Array issue all over... -->
+            <label for="enterEvent">Enter upcoming events for this venue</label><div id="enterEvent"></div>
+            <button id="eventInput" class="btn btn-sm btn-primary">Add Event</button>
+        </div>
+
+
+        <p id="venueOutlinesDoneAdded" style="color: darkgreen; margin-top: 5px"><button id="addOutlines" class="btn btn-sm btn-primary">Add/Redo venue outlines</button></p>
+
+        <input id="saveVenue" class="btn btn-sm btn-success" type="submit" value="Save Venue"/><button id="cancelAdding" class="btn btn-sm btn-danger">Cancel</button>
+        <pre id="result"></pre>
+        </div>
+</div>
+</form>
+

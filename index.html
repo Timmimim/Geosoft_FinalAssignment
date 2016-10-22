@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Olympic Venues  -  Rio 2016</title>
+
+
+
+    <!-- CSS StyleSheets -->
+        <!-- External Packages -->
+            <!-- Leaflet -->
+            <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
+            <link rel="stylesheet" href="node_modules/leaflet-easybutton/src/easy-button.css">
+
+            <!-- Bootstrap-->
+            <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+            <!-- Leaflet-Routing-Machine && Mapzen Valhalla -->
+            <link rel="stylesheet" href="node_modules/lrm-mapzen/css/leaflet.routing.mapzen.css">
+
+            <!-- Leaflet Geosearch -->
+            <link rel="stylesheet" href="node_modules/leaflet-geosearch/src/css/l.geosearch.css">
+
+            <!-- Leaflet Draw -->
+            <link rel="stylesheet" href="node_modules/leaflet-draw/dist/leaflet.draw.css">
+
+            <!-- Leaflet Awesome Markers -->
+            <link rel="stylesheet" href="node_modules/drmonty-leaflet-awesome-markers/css/leaflet.awesome-markers.css">
+
+        <!-- Custom Stylesheets -->
+        <link rel="stylesheet" href="css/olympic_venues.css"/>
+
+
+</head>
+<body>
+<!-- Static navbar -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logoBlack.jpg" height=100% /> </a>
+        <button class="navbar-toggle hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+        </button>
+        <div id="navbar" class="navbar-collapse collapse navbar-toggleable-xs">
+            <ul class="nav navbar-nav">
+                <li style="background-color: darkcyan; width: 110px " class="nav-item"><a id="homenav" style="color: black; text-align: center" class="nav-link" href="#">Home</a></li>
+                <li style="background-color: gold;  width: 110px " class="nav-item"><a id="mapnav" style="color: black; text-align: center" class="nav-link" href="#">Map</a></li>
+                <li style="background-color: forestgreen; width: 110px" class="nav-item"><a id="impressumnav" style="color: black; text-align: center" class="nav-link" href="#">Impressum</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item"><a class="nav-link" href="http://9gag.com/cute">...Bored with this?</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+<div class="row">
+    <div class="col-xs-1"></div>
+    <div id="load" class="col-xs-10">
+        <h1>The Rio Games of 2016</h1>
+        <h2>You're custom guide to Your venues</h2>
+
+        <p class="introtext">
+            Create and save your own venues for the Big Games. Even load your pre-built JSON documents.<br>
+            This page features navigation from your nearest airport, as well as an info box and a preview of your venues homepage. <br>
+            To ease access to Your venues, you can not only search each one on the map yourself, but there is also a full-text search engine to help you find your venue. <br>
+            <br>
+            So get going, and enjoy Your Games. <br> <br>
+        </p>
+        <img src="img/logoLarge.jpg">
+    </div>
+    <div class="col-xs-1"></div>
+</div>
+
+    <!-- JavaScript -->
+
+    <!-- External Packages -->
+
+         <!-- Jquery-->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+        <!-- Leaflet -->
+        <script src="node_modules/leaflet/dist/leaflet.js"></script>
+        <script src="node_modules/leaflet-easybutton/src/easy-button.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Leaflet Routing Machine && Mapzen Valhalla-->
+        <script src="node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+        <script src="node_modules/lrm-mapzen/dist/lrm-mapzen.js"></script>
+
+        <!-- Leaflet Geosearch -->
+        <script src="node_modules/leaflet-geosearch/src/js/l.control.geosearch.js"></script>
+        <script src="node_modules/leaflet-geosearch/src/js/l.geosearch.provider.openstreetmap.js"></script>
+
+        <!-- Leaflet Draw -->
+        <script src="node_modules/leaflet-draw/dist/leaflet.draw.js"></script>
+
+        <!-- Leaflet Awesome Markers -->
+        <script src="node_modules/drmonty-leaflet-awesome-markers/js/leaflet.awesome-markers.js"></script>
+
+    <!-- Custom JS -->
+        <script src="js/index.js"></script>
+        <script src="js/jquery.slides.min.js"></script>
+        <script src="js/toggleInputInfo.js"></script>
+        <script src="js/loadCoordinates.js"></script>
+        <script src="js/map.js"></script>
+        <script src="js/routing.js"></script>
+        <script src="js/ajax.js"></script>
+        <script src="js/inputForm.js"></script>
+        <script src="js/inputFile.js"></script>
+</body>
+</html>
