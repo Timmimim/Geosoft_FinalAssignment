@@ -1,0 +1,25 @@
+<script>mapBuild()</script>
+<form id="addVenueInit" class="addVenue">
+    <p>
+        <a id="addVenue" class="btn btn-primary" href="#">Add a Venue</a>
+        <input id="loadExternalFile" type="file" class="btn btn-primary" accept="application/json" value="Load from file" onchange="loadFile()">
+    </p>
+</form>
+
+    <h2 class="search_legend">Search for Venues:    </h2>
+    <label for="searchFeature">Search for any feature Your venue might have:
+        <input type="text" id="searchFeature" accept="text/plain" placeholder="Your wanted feature here!">
+    </label>
+    <input type="submit" id="startSearch" class="btn btn-primary" value="Search DataBase" onclick="searchFeature()">
+
+<div id="mapPlusInfobox" style="margin-top: 7px; margin-bottom: 7px">
+    <div id ='map' class="maplarge"></div>
+    <div id="infobox" class="infobox"></div>
+</div>
+
+<button style="margin-top: 7px" id="showlist" class="btn btn-primary">Show/Hide Linklist</button>
+<div style="overflow-y: scroll; height: 200px; margin-top: 7px">
+    <ul style="margin-top: 7px" id="featureList"></ul>
+</div>
+
+<iframe id="pagePreview" name="showLink" style="border:none; width: 100%; margin-top: 7px;"></iframe>
